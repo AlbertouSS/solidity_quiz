@@ -40,7 +40,7 @@
     <Accordion>
       <AccordionItem disabled={!question.clickedAnswer}>
         <div slot="title">
-          <h5>Show explanation</h5>
+          <h5>Explicación</h5>
         </div>
         <p class="explanation">
           {@html marked(question.explanation)}
