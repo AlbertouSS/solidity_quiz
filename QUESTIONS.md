@@ -1,23 +1,26 @@
 <div align="center">
   <img height="60" src="https://img.icons8.com/?size=100&id=HOqGCOyHDbd4&format=png&color=000000">
-  <h1>Solidity Questions</h1>
+  <h1>Preguntas de Solidity</h1>
 </div>
 
 ---
 
 <p align="center">
-From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions. I added the answers in the **collapsed sections** below the questions, simply click on them to expand it. It's just for fun, good luck! :heart:</p>
+Preguntas de entendimiento sobre Solidity desde básicas hasta avanzadas para complementar el Grupo de Estudio de EVM y Solidity creado por <code>garosan</code> y <code>albertou</code> :heart:</p>
 
-<p align="center">Feel free to reach out to me! 😊</p>
+<p align="center">Feel free to reach out!</p>
 
 <p align="center">
-  <a href="https://www.instagram.com/theavocoder">Instagram</a> || <a href="https://www.twitter.com/lydiahallie">Twitter</a> || <a href="https://www.linkedin.com/in/lydia-hallie">LinkedIn</a> || <a href="https://www.lydiahallie.io/">Blog</a>
+  <a href="https://t.me/+_fPZloVp8b8yOGIx">Telegram del Grupo de Estudio</a> || <a href="#">Website (Próximamente)</a>
+</p>
+<p align="center">
+  <a href="https://x.com/garosan1">X Garosan</a> || <a href="https://x.com/albertou_eth">X albertou</a>
 </p>
 
 Acknowledgements:
 
-- This is the original repo by
-- The original questions by Lydia Hallie
+- [This](https://github.com/nclskfm/javascript-quiz) is the original repo by [nclskfm](https://github.com/nclskfm)
+- Original JavaScript questions by [Lydia Hallie](https://www.twitter.com/lydiahallie)
 - Icons courtesy of [icons8.com](https://icons8.com/)
 
 ---
