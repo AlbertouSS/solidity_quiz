@@ -14,13 +14,13 @@
 <nav>
   <div id="wrapper">
     <span id="correct" title="Correct: {$counter.correct}" class:correct-blur-out={animateClass === 'correct'}
-      >Correct: {$counter.correct}</span
+      >Correctas: {$counter.correct}</span
     >
     <span id="incorrect" title="Incorrect: {$counter.incorrect}" class:incorrect-blur-out={animateClass === 'incorrect'}
-      >Incorrect: {$counter.incorrect}</span
+      >Incorrectas: {$counter.incorrect}</span
     >
     <span id="remaining"
-      >Remaining: {$counter.questions -
+      >Faltantes: {$counter.questions -
         $counter.correct -
         $counter.incorrect}</span
     >

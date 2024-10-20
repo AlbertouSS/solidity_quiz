@@ -12,9 +12,7 @@ export function getQuestions() {
   request.onreadystatechange = (e) => {
     if (request.readyState === 4 && request.status === 200) {
       const unparsed = request.responseText.split(/(?=#{6} [1-9])/).slice(1);
-      console.log('unparsed', unparsed);
       const parsed = parseQuestions(unparsed);
-      console.log('parsed', parsed);
       questions.set(parsed);
 
       loadAnsweredQuestionsFromStorage();
@@ -37,9 +35,10 @@ function parseQuestions(unparsed) {
       .map((answer) => {
         return {
           char: answer[2],
-          text: answer.slice(5),
+          text: answer.slice(5).trim(),
         };
-      });
+      })
+      .filter((answer) => answer.text);
 
     const spoiler = question.slice(indexOfDetails);
     const indexOfCorrectAnswer = spoiler.indexOf('#### Answer: ') + 13;

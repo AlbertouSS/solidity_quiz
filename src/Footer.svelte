@@ -12,21 +12,9 @@
   <div class="container">
     <span
       ><a href="https://github.com/nclskfm" target="_blank" rel="noopener"
-        >by nclskfm</a
+        >Original code by nclskfm</a
       ></span
     >
-    <span>
-      <a
-        href="https://www.buymeacoffee.com/nclskfm"
-        target="_blank"
-        rel="noopener"
-        ><img
-          src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
-          alt="Buy Me A Coffee"
-          height="40px"
-        /></a
-      >
-    </span>
     <span
       ><a
         href="https://github.com/garosan/solidity-quiz"
@@ -35,23 +23,8 @@
       ></span
     >
     <span
-      ><a
-        href="https://github.com/lydiahallie/javascript-questions/"
-        target="_blank"
-        rel="noopener">questions by lydiahallie</a
-      >
-    </span>
-    <span
       ><a href="https://svelte.dev/" target="_blank" rel="noopener"
         >made with svelte</a
-      ></span
-    >
-    <span><a href="/#" on:click={openSettings}>settings</a></span>
-    <span
-      ><a
-        href="https://www.niclaskaufmann.de/impressum.html"
-        target="_blank"
-        rel="noopener">impressum</a
       ></span
     >
   </div>
