@@ -1334,7 +1334,11 @@ var app = (function () {
       request.onreadystatechange = (e) => {
         if (request.readyState === 4 && request.status === 200) {
           const unparsed = request.responseText.split(/(?=#{6} [1-9])/).slice(1);
-          questions.set(parseQuestions(unparsed));
+          console.log('unparsed', unparsed);
+          const parsed = parseQuestions(unparsed);
+          console.log('parsed', parsed);
+          questions.set(parsed);
+
           loadAnsweredQuestionsFromStorage();
         }
       };
