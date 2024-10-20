@@ -29,7 +29,7 @@
     </span>
     <span
       ><a
-        href="https://github.com/nclskfm/javascript-quiz"
+        href="https://github.com/garosan/solidity-quiz"
         target="_blank"
         rel="noopener">source code</a
       ></span

@@ -20,41 +20,41 @@
 
 <div class="settings-wrapper">
   <div class="content">
-    <h1>JavaScript quiz</h1>
+    <div align="center">
+      <img alt="Solidity Logo" src="https://img.icons8.com/?size=100&id=HOqGCOyHDbd4&format=png&color=000000">
+    </div>
+    <h1>Solidity quiz</h1>
     <p>
-      Hi, here is a quiz to test your knowledge about JavaScript. But beware,
-      some questions are quite tricky. 🔥
+      Hicimos este quiz para probar qué tanto vamos aprendiendo en Solidity 🤓.
+      Empieza fácil pero se irá poniendo más difícil. 
     </p>
     <p>
-      The questions have been created by <a
-        href="https://github.com/lydiahallie/javascript-questions/"
-        target="_blank"
-        rel="noopener">Lydia Hallie</a
-      >. Thanks for sharing!
+      No te preocupes si algunos conceptos no te hacen sentido, solo respira, 
+      pregunta, vuelve a intentarlo, no pasa nada, estamos aquí para aprender! 📚
     </p>
     <p>
-      The app can save your answers locally so you can continue playing another
-      time. If you want to do that, press the green button. ✅
+      La app puede guardar tus respuestas localmente mediante cookies para que continues
+      jugando en otra ocasión. Si quieres permitírselo, solo presiona el botón verde. ✅
     </p>
-    <p>And now have fun! 🚀</p>
+    <p>LFG! 🚀🚀</p>
     <div class="button-wrapper">
       <button
         class="deny plausible-event-name=Deny+Cookies"
         on:click={() => closeSettings()}
-        >deny{#if cookiesAllowed}*{/if}</button
+        >sin cookies{#if cookiesAllowed}*{/if}</button
       >
       <button
         class="allow plausible-event-name=Allow+Cookies"
-        on:click={() => closeSettings(true)}>allow</button
+        on:click={() => closeSettings(true)}>permitir</button
       >
     </div>
     {#if cookiesAllowed}
       <p>* Your current score will also be cleared! ⚠️</p>
     {/if}
     <a
-      href="https://github.com/nclskfm/javascript-quiz"
+      href="https://github.com/garosan/solidity-quiz"
       target="_blank"
-      rel="noopener">source code</a
+      rel="noopener">repo fuente</a
     >
   </div>
 </div>
