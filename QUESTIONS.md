@@ -25,23 +25,12 @@ Acknowledgements:
 
 ---
 
-###### 1. Solidity Question 1
+###### 1. ¿Cómo se llama el entorno de desarrollo fácil de usar, accesible desde cualquier navegador que utilizaremos para dar nuestros primeros pasos en Solidity?
 
-```javascript
-function sayHi() {
-  console.log(name);
-  console.log(age);
-  var name = 'Lydia';
-  let age = 21;
-}
-
-sayHi();
-```
-
-- A: `Lydia` and `undefined`
-- B: `Lydia` and `ReferenceError`
-- C: `ReferenceError` and `21`
-- D: `undefined` and `ReferenceError`
+- A: VS Code
+- B: Hardhat
+- C: Remix
+- D: Foundry
 
 <details><summary><b>Answer</b></summary>
 <p>
