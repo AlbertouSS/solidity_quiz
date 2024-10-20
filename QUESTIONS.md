@@ -46,7 +46,7 @@ Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, do
 
 ---
 
-###### 2. Solidity Question 2
+###### 2. What's the output?
 
 ```javascript
 for (var i = 0; i < 3; i++) {
