@@ -6,7 +6,7 @@ export function getQuestions() {
   let request = new XMLHttpRequest();
   request.open(
     'GET',
-    'https://raw.githubusercontent.com/garosan/solidity-quiz/refs/heads/main/QUESTIONS.md'
+    'https://raw.githubusercontent.com/garosan/solidity_quiz/refs/heads/main/QUESTIONS.md'
   );
   request.send();
   request.onreadystatechange = (e) => {
