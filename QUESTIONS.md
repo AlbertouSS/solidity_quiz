@@ -44,7 +44,7 @@ Remix será el entorno de desarrollo que utilizaremos. Recuerda asegurarte siemp
 
 ---
 
-###### 2. Solidity Question 2
+###### 2. What's the output?
 
 ```javascript
 for (var i = 0; i < 3; i++) {
