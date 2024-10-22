@@ -8,7 +8,7 @@
 <p align="center">
 Preguntas de entendimiento sobre Solidity desde básicas hasta avanzadas para complementar el Grupo de Estudio de EVM y Solidity creado por <code>garosan</code> y <code>albertou</code> :heart:</p>
 
-<p align="center">Feel free to reach out!</p>
+<h3 align="center">Únete a nosotros</h3>
 
 <p align="center">
   <a href="https://t.me/+_fPZloVp8b8yOGIx">Telegram del Grupo de Estudio</a> || <a href="#">Website (Próximamente)</a>
@@ -17,11 +17,10 @@ Preguntas de entendimiento sobre Solidity desde básicas hasta avanzadas para co
   <a href="https://x.com/garosan1">X Garosan</a> || <a href="https://x.com/albertou_eth">X albertou</a>
 </p>
 
-Acknowledgements:
+Reconocimientos:
 
-- [This](https://github.com/nclskfm/javascript-quiz) is the original repo by [nclskfm](https://github.com/nclskfm)
-- Original JavaScript questions by [Lydia Hallie](https://www.twitter.com/lydiahallie)
-- Icons courtesy of [icons8.com](https://icons8.com/)
+- [Este](https://github.com/nclskfm/javascript-quiz) es el repo original creado por [nclskfm](https://github.com/nclskfm)
+- Iconos cortesía de [icons8.com](https://icons8.com/)
 
 ---
 
