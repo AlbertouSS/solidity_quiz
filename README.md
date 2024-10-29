@@ -1,14 +1,13 @@
-# JavaScript quiz
 
-A small quiz application for JavaScript questions based on [Svelte](https://svelte.dev). The [questions](https://github.com/lydiahallie/javascript-questions/) have been created by [@lydiahallie](https://github.com/lydiahallie/). Thanks for sharing! 🙏
+# <a href="https://etherscan.io/address/0xae3355308c4f4B7CcFe04B4568e571057890288e" target="_blank"><img src="https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=035" alt="Send some eth" style="height: 50px !important;" ></a> Solidity quiz
+
+A small quiz application for Solidity questions based on [Svelte](https://svelte.dev).
 
 The website works completely locally. The questions come from the readme linked above and are parsed to readable objects. Optionally you can enable cookies. Then the answered questions are saved locally and you can continue playing another time.
 
-<a href="https://www.buymeacoffee.com/nclskfm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 50px !important;" ></a>
-
 ## Website
 
-Here is a link to the quiz: https://javascript-questions.vercel.app/ 🚀
+Here is a link to the quiz: https://solidity-quiz.vercel.app/ 🚀
 
 ## Run dev
 
@@ -16,14 +15,8 @@ Just clone the repository, run `npm i` and then start the Svelte dev server with
 
 ## Feedback
 
-This is my first Svelte app. So feel free to give me feedback or contribute :)
+Lave your feedback 📨 at the TG study group
 
 ## Credits
 
-Svelte app made by [@nclskfm](https://github.com/nclskfm/). Questions made by [@lydiahallie](https://github.com/lydiahallie/).
-
----
-
-![lighthouse score 100](lighthouse.gif)
-
-🥳
+- [This](https://github.com/nclskfm/javascript-quiz) is the original repo by [nclskfm](https://github.com/nclskfm) 🥳
