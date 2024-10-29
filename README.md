@@ -1,4 +1,3 @@
-
 # <a href="https://etherscan.io/address/0xae3355308c4f4B7CcFe04B4568e571057890288e" target="_blank"><img src="https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=035" alt="Send some eth" style="height: 50px !important;" ></a> Solidity quiz
 
 A small quiz application for Solidity questions based on [Svelte](https://svelte.dev).
@@ -15,7 +14,7 @@ Just clone the repository, run `npm i` and then start the Svelte dev server with
 
 ## Feedback
 
-Lave your feedback 📨 at the TG study group
+Leave your feedback 📨 at the TG study group
 
 ## Credits
 

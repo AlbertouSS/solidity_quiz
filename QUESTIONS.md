@@ -154,3 +154,132 @@ En este caso y pasando esos parámetros a esta función, ésta simplemente se re
 </details>
 
 ---
+
+###### 7. ¿Cuál sería el código correcto para calcular el 12.5% de 400?
+
+``
+
+- A: `uint256 interest = 400 * 12 / 100;`
+- B: `uint256 interest = 200 * 75 / 1000;`
+- C: `uint256 interest = 400 * 625 / 5000;`
+- D: `uint256 interest = 400 * 125 / 1000;`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: D
+
+Recuerda que en Solidity no tenemos flotantes, es decir no podemos simplemente multiplicar `400 * .125` así que tenemos qué recurirr a este pequeño truco de multiplicar 400 por 125 y dividir por 1000.
+
+</p>
+</details>
+
+---
+
+###### 8. Si estamos trabajando con Solidity 0.8.0 o mayor, ¿cómo podemos hacer `underflow` de nuestro tipo de dato? Es decir, si tenemos una variable `uint8` (cuyo valor máximo es 256) y queremos que al restar `2 - 10` nos de `248` ¿qué tenemos qué hacer?
+
+``
+
+- A: Grapar nuestro código en un bloque `unchecked`.
+- B: Usar un bloque `validArithmetic` adentro de la función donde pongamos éste código.
+- C: Usar la librería `underflow` de OpenZeppelin.
+- D: No necesitamos hacer nada especial a partir de Solidity 0.8.0.
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+Antes de Solidity 0.8.0 podíamos hacer `underflow` y `overflow` de nuestros enteros sin problema pero esto creó muchos bugs y problemas de seguridad. A partir de Solidity 0.8.0, tienes qué grapar tu código en un bloque `unchecked` si quieres hacer `underflow` u `overflow` pero esto es un feature muy avanzado y sólo deberías usarlo si sabes exactamente las consecuencias de ello.
+
+</p>
+</details>
+
+---
+
+###### 9. En Solidity, ¿cómo iteramos exactamente 10 veces en un for loop para agregar valores de 0 a 9 a una variable `suma`?
+
+```solidity
+// Opción A
+function sumar() public pure returns (uint256) {
+    uint256 suma = 0;
+    for (uint256 i = 1; i <= 10; i++) {
+        suma += i;
+    }
+    return suma;
+}
+
+// Opción B
+function sumar() public pure returns (uint256) {
+    uint256 suma = 0;
+    for (uint256 i = 0; i <= 9; i++) {
+        suma += i;
+    }
+    return suma;
+}
+
+// Opción C
+function sumar() public pure returns (uint256) {
+    uint256 suma = 0;
+    for (uint256 i = 0; i < 10; i++) {
+        suma += i;
+    }
+    return suma;
+}
+
+// Opción D
+function sumar() public pure returns (uint256) {
+    uint256 suma = 0;
+    for (uint256 i = 1; i < 10; i++) {
+        suma += i;
+    }
+    return suma;
+```
+
+- A: Opción A
+- B: Opción B
+- C: Opción C
+- D: Opción D
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: C
+
+La opción correcta es la C. Analicémosla: Tenemos una función donde primero declaramos nuestra variable contador `suma`, luego creamos un `for loop` con sus 3 elementos: `inicialización`, `condición` y `actualización`. Entonces decimos que nuestra variable `i` vale 0 y en cada vuelta valdrá 1 más hasta antes de llegar a 10, y en cada vuelta, agregaremos el valor de `i` a `suma`, y de esa manera agregaremos los números del 0 al 9. Trata de ver si encuentras porqué los otros códigos tienen errores o no hacen exactamente esto.
+
+</p>
+</details>
+
+---
+
+###### 10. Este código es válido en Solidity?
+
+```solidity
+function isNotZero(uint256 x)
+    public
+    pure
+    returns (bool) {
+        if (x) {
+            return true;
+        } else {
+            return false;
+        }
+}
+```
+
+- A: No.
+- B: Sí.
+- C: Sí pero solo en la última versión del compilador de Solidity (^0.8.0)
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+Al contrario de otros lenguajes que convierten cualquier uint a una expresión verdadera o falsa, en Solidity no puedes hacer esto nunca. Si vas a poner una expresión dentro de un bloque `if`, esta expresión tiene qué ser de tipo `bool`; no puedes poner un string, uint u otro tipo de dato similar.
+
+</p>
+</details>
+
+---
