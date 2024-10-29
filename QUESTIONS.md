@@ -128,3 +128,30 @@ Luego, al lado de la palabra clave returns entre paréntesis, encontramos el tip
 
 </p>
 </details>
+
+---
+
+###### 6. Esta función restará 2 números que se le pasen como parámetros, que pasará si pasamos a con un valor de `2` y b con un valor de `10`?
+
+```solidity
+function restar(uint256 a, uint256 b) public pure returns (uint256) {
+    return a - b;
+}
+```
+
+- A: El resultado será `-8`.
+- B: La transacción se revertirá.
+- C: La transacción entrará en un loop infinito y se quedará sin gas.
+- D: El entero se _grapará_ sobre lo máximo que puede guardar. Es decir, el resultado será 2^256-1 (lo máximo que puede guardar un `uint256` menos `8` unidades).
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: B
+
+En este caso y pasando esos parámetros a esta función, ésta simplemente se revertirá. Inténtalo en Remix!
+
+</p>
+</details>
+
+---
